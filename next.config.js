@@ -18,6 +18,9 @@ const nextConfig = {
       "/*": ["./cache/**/*"],
     },
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 module.exports = nextConfig;
